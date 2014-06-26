@@ -1,0 +1,20 @@
+{
+  "name": "nivlac",
+  "description": "An express.js view engine that does not use a markup language.",
+  "repositories": {
+    "url": "git://github.com/aeos/nivlac.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/aeos/nivlac/issues"
+  },
+  "version": "0.0.1",
+  "engines": "0.10.x",
+  "license": "MIT",
+  "author": "Calvin Dallimore <spectral2k@hotmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.16.0"
+  },
+  "directories": {"lib": "./lib"}
+}
