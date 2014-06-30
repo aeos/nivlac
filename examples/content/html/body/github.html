@@ -1,0 +1,53 @@
+<div class="header header-logged-out">
+	<div class="container clearfix">
+		<a class="header-logo-wordmark" href="https://github.com/"><span class="mega-octicon octicon-logo-github"></span></a>
+
+		<div class="header-actions">
+			<a class="button primary" href="/join">Sign up</a> <a class="button signin" href="/login?return_to=%2Faeos%2Fnivlac">Sign in</a>
+		</div>
+
+		<div class="command-bar js-command-bar in-repository">
+			<ul class="top-nav">
+				<li class="explore"><a href="/explore">Explore</a></li>
+
+				<li class="features"><a href="/features">Features</a></li>
+
+				<li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+
+				<li class="blog"><a href="/blog">Blog</a></li>
+			</ul>
+
+			<form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+				<div class="commandbar">
+					<input type="text" data-hotkey="s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off" data-repo="aeos/nivlac" data-branch="master" data-sha="4c8eb2878c61a0e839b0015bc88dc24423818546">
+
+					<div class="display hidden"></div>
+				</div><input type="hidden" name="nwo" value="aeos/nivlac">
+
+				<div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+					<span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true"><span class="js-select-button">This repository</span></span>
+
+					<div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+						<div class="select-menu-modal">
+							<div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+								<input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked">
+
+								<div class="select-menu-item-text js-select-button-text">
+									This repository
+								</div>
+							</div><!-- /.select-menu-item -->
+
+							<div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+								<input type="radio" name="search_target" value="global">
+
+								<div class="select-menu-item-text js-select-button-text">
+									All repositories
+								</div>
+							</div><!-- /.select-menu-item -->
+						</div>
+					</div>
+				</div><input type="hidden" name="ref" value="cmdform">
+			</form>
+		</div>
+	</div>
+</div>

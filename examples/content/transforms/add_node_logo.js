@@ -1,0 +1,1 @@
+$('#readme article').prepend(options.markup);

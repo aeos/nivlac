@@ -1,0 +1,55 @@
+transforms.next(
+	document("layout.html")
+)
+.next(
+	partial(
+		"head/facebook.html",
+		"head"
+	)
+)
+.next(
+	partial(
+		"head/twitter.html",
+		"head"
+	)
+)
+.next(
+	partial(
+		"head/octolyptics.html",
+		"head"
+	)
+)
+.next(
+	partial(
+		"head/github.html",
+		"head"
+	)
+)
+.next(
+	partial(
+		"body/github.html",
+		".wrapper"
+	)
+)
+.next(
+	partial(
+		"body/landing.html",
+		".wrapper"
+	)
+)
+.next(
+	partial(
+		"body/footer.html",
+		"body"
+	)
+)
+.next(
+	manipulate(
+		"facebook.js"
+	)
+)
+.next(
+	manipulate(
+		"static_links.js"
+	)
+)
