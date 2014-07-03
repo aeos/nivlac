@@ -38,7 +38,7 @@ A nivlac template contains a chain of transformations that will operate on the d
 A quick example of a template is as follows:
 ```js
 transforms.next(document('foo.html'))
-.next(partial('bar.html','body')
+.next(partial('bar.html','body'))
 ```
 
 The above example must be placed in the express.js _views_ folder.
