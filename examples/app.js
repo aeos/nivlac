@@ -14,5 +14,5 @@ app.get('/', function(req, res){
 	res.render('index');
 });
 
-app.listen(3131);
-console.log("done");
+app.listen(8000);
+console.log("to run the example hit http://localhost:8000/");
