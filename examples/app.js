@@ -8,6 +8,9 @@ app.set('view engine','js');
 app.set('views', './pages/');
 app.set('fragments', './content/');
 
+// access static content by using /static
+app.use('/static', express.static(__dirname + '/static'));
+
 app.get('/', function(req, res){
 	res.locals.link_base = "https://github.com";
 	res.locals.link_uri = "/aeos/nivlac/";
